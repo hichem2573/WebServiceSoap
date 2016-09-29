@@ -28,7 +28,7 @@ namespace AccesDonnees
         [OperationContract]
         bool UpDateEmp(string emane, string job, int mgr, decimal sal, decimal comm, int deptno);
 
-        // TODO: ajoutez vos opérations de service ici
+        
     }
 
     // Utilisez un contrat de données comme indiqué dans l'exemple ci-après pour ajouter les types composites aux opérations de service.
