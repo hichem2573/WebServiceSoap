@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="18421e9a-2efc-48f2-99dd-e0020e037ee1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:16223/ServiceSalarie.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceSalarie.xsd" MetadataType="Schema" ID="768c5615-dd5c-4b57-b593-4412b4d4881a" SourceId="1" SourceUrl="http://localhost:16223/ServiceSalarie.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceSalarie.disco" MetadataType="Disco" ID="d7f633be-c22e-4e00-98b3-9bbabfc3f53c" SourceId="1" SourceUrl="http://localhost:16223/ServiceSalarie.svc?disco" />
+    <MetadataFile FileName="ServiceSalarie1.xsd" MetadataType="Schema" ID="4aaa9282-eb8b-41a1-afa7-600bac430a27" SourceId="1" SourceUrl="http://localhost:16223/ServiceSalarie.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceSalarie2.xsd" MetadataType="Schema" ID="6ff3aa3b-625c-47e9-950a-6cee08e7b201" SourceId="1" SourceUrl="http://localhost:16223/ServiceSalarie.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceSalarie.wsdl" MetadataType="Wsdl" ID="d2e9b686-5f96-4bdb-b6f8-8cb25910158d" SourceId="1" SourceUrl="http://localhost:16223/ServiceSalarie.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
